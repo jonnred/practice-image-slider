@@ -1,0 +1,57 @@
+:root{
+    --Image1:url("./pictures/image1.jpg");
+    --Image2:url("./pictures/image2.jpg");
+    --Image3:url("./pictures/image3.jpg");
+    --Image4:url("./pictures/image4.jpg");
+    --Image5:url("./pictures/image5.jpg");
+
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    color : white; 
+    height:100vh;
+    text-align:center;
+    margin:1rem 5rem;
+    background: linear-gradient(rgba(0, 
+    0, 0, 0.7),rgba(66, 59, 59, 0.7));
+    
+}
+.image{
+    margin-top:1rem;
+    text-align: center;
+    min-width: 400px;
+    width: 40%;
+    height: 40vh;
+    position:relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    /*background:var(--Image4);*/
+    background-size: cover;
+    background-position-y: center ;
+}
+.imageSlider{
+    margin:1rem 1rem;
+    width: auto;
+}
+.button{
+    display: inline-grid;
+    position: relative;
+    top: 90%;
+    background: linear-gradient(rgba(223,
+     223, 236, 0.2),rgba(253,
+     253, 253, 0.2));
+    cursor: pointer;
+    border: 2px solid pink;
+}
+#button-left{
+    width: 48%;
+}
+#button-right{
+    width: 48%;
+
+}
