@@ -20,6 +20,9 @@ body{
     0, 0, 0.7),rgba(66, 59, 59, 0.7));
     
 }
+.imahe{
+
+}
 .image{
     margin-top:1rem;
     text-align: center;
@@ -30,7 +33,7 @@ body{
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
-    /*background:var(--Image4);*/
+
     background-size: cover;
     background-position-y: center ;
 }
