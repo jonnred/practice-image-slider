@@ -16,12 +16,8 @@ body{
     height:100vh;
     text-align:center;
     margin:1rem 5rem;
-    background: linear-gradient(rgba(0, 
-    0, 0, 0.7),rgba(66, 59, 59, 0.7));
+    background: linear-gradient( #333 , #222);
     
-}
-.imahe{
-
 }
 .image{
     margin-top:1rem;
@@ -33,7 +29,7 @@ body{
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
-
+    background-image: url(./pictures/image1.jpg);
     background-size: cover;
     background-position-y: center ;
 }

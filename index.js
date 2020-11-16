@@ -24,14 +24,20 @@ nextBtn.addEventListener("click",()=>{
 })
 
 const imagesNext = ()=>{
-    if (imageSlides.length   == currentSlides){
+    if (imageSlides.length  == currentSlides){
         currentSlides=0;
         console.log(`hey${currentSlides}`)
     }
 }
 const imagePrev = ()=>{
-    if (currentSlides == 0){
-        currentSlides=imageSlides.length;
+    if (currentSlides < 0){
+        currentSlides=imageSlides.length-1;
         console.log(`hey${currentSlides}`)
     }
 }
+setInterval(() => {
+    currentSlides += 1; 
+    imahe.style.backgroundImage = imageSlides[currentSlides];
+    imagesNext();
+    console.log ('hehehea')   
+}, 5000);
